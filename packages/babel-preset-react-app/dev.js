@@ -8,6 +8,7 @@
 
 const create = require('./create');
 
+console.log('chnge');
 module.exports = function (api, opts) {
   return create(api, Object.assign({ helpers: false }, opts), 'development');
 };
